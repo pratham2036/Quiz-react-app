@@ -1,0 +1,73 @@
+.quiz {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.quiz h1{
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.quiz .options-wrapper .options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quiz .options-wrapper h2 , .show-result-wrapper h2{
+    margin-bottom: 10px;
+}
+
+.quiz .options-wrapper p, .show-result-wrapper p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    color: rgb(1, 8, 2);
+}
+
+.quiz .options-wrapper .options .option {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #331ed1;
+    cursor: pointer;
+    outline: none;
+    background-color: #e2f5f3;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.quiz .options-wrapper .options .option:hover{
+        background-color: #1a5b86dd;
+
+
+
+}
+.quiz .options-wrapper .options .option.selected {
+    background-color: #364936;
+    color: #ffffff;
+}
+
+.quiz .options-wrapper .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quiz .options-wrapper .button-container button ,.restart-button {
+    padding: 12px 20px;
+    background-color: #e1d2de;
+    font-size: 18px;
+    border: 1px solid rgb(12, 2, 121);
+    font-weight: bold;
+    cursor: pointer;
+    color: #010c0b;
+    border-radius: 20px;
+}
